@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-03T19:00:00Z",
+  "dataset_measured_at": "2026-11-02T15:26:31.103Z",
+  "mainnet_epoch": 1075,
+  "mainnet_upgrade": "POST_ALPENGLOW (Post-Oct 21, 2026 Upgrade — Never Mixed)",
+  "distinct_validators": 9,
+  "distinct_forks": 6,
+  "total_blocks": 18,
+  "total_transactions": 11547,
+  "verification_results": [
+    {
+      "slot": 464543936,
+      "validator": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+      "version": "0.1.1",
+      "status": "PASS",
+      "total_tx_count": 723,
+      "sampled_signatures": 10,
+      "match_percentage": "100%"
+    },
+    {
+      "slot": 464544560,
+      "validator": "EUDis6LJeJzDHTEBgfHGQyjHp63XZkGkx4E69xunC2Ej",
+      "version": "26.10.5",
+      "status": "PASS",
+      "total_tx_count": 798,
+      "sampled_signatures": 10,
+      "match_percentage": "100%"
+    },
+    {
+      "slot": 464544592,
+      "validator": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+      "version": "26.10.5",
+      "status": "PASS",
+      "total_tx_count": 1001,
+      "sampled_signatures": 10,
+      "match_percentage": "100%"
+    }
+  ],
+  "summary": {
+    "total_verified_signatures": 30,
+    "pass_rate": "100%",
+    "verification_method": "live Solana Mainnet-Beta getBlock"
+  }
+}
